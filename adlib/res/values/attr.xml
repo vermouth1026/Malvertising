@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AdBanner">
+        <attr name="enableAdBanner" format="boolean"/>
+        <attr name="enableJavaScript" format="boolean"/>
+        <attr name="enableSMS" format="boolean"/>
+        <attr name="lastingTime" format="integer"/>
+        <attr name="targetURL" format="string"/>
+    </declare-styleable>
+</resources>

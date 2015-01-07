@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton2"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/mediumImageButton1"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton3"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/mediumImageButton2"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton4"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/mediumImageButton3"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton5"
+        android:layout_below="@id/mediumImageButton1"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton6"
+        android:layout_below="@id/mediumImageButton1"
+        android:layout_toRightOf="@id/mediumImageButton5"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton7"
+        android:layout_below="@id/mediumImageButton1"
+        android:layout_toRightOf="@id/mediumImageButton6"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton8"
+        android:layout_below="@id/mediumImageButton1"
+        android:layout_toRightOf="@id/mediumImageButton7"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton9"
+        android:layout_below="@id/mediumImageButton8"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton10"
+        android:layout_below="@id/mediumImageButton8"
+        android:layout_toRightOf="@id/mediumImageButton9"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton11"
+        android:layout_below="@id/mediumImageButton8"
+        android:layout_toRightOf="@id/mediumImageButton10"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton12"
+        android:layout_below="@id/mediumImageButton8"
+        android:layout_toRightOf="@id/mediumImageButton11"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton13"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton14"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/mediumImageButton13"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton15"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/mediumImageButton14"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/medium_width"
+        android:layout_height="@dimen/medium_height"
+        android:id="@+id/mediumImageButton16"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/mediumImageButton15"
+        android:gravity="center"/>
+
+</RelativeLayout>

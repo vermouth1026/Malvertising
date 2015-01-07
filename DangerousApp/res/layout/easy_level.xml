@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/easy_width"
+        android:layout_height="@dimen/easy_height"
+        android:id="@+id/easyImageButton1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/easy_width"
+        android:layout_height="@dimen/easy_height"
+        android:id="@+id/easyImageButton2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/easy_width"
+        android:layout_height="@dimen/easy_height"
+        android:id="@+id/easyImageButton3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="@dimen/easy_width"
+        android:layout_height="@dimen/easy_height"
+        android:id="@+id/easyImageButton4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"/>
+
+    <!--android:src="@drawable/preclicked"-->
+
+
+</RelativeLayout>

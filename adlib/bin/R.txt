@@ -1,0 +1,13 @@
+int attr enableAdBanner 0x7f010000
+int attr enableJavaScript 0x7f010001
+int attr enableSMS 0x7f010002
+int attr lastingTime 0x7f010003
+int attr targetURL 0x7f010004
+int id adbanner 0x7f030000
+int layout adbanner 0x7f020000
+int[] styleable AdBanner { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004 }
+int styleable AdBanner_enableAdBanner 0
+int styleable AdBanner_enableJavaScript 1
+int styleable AdBanner_enableSMS 2
+int styleable AdBanner_lastingTime 3
+int styleable AdBanner_targetURL 4

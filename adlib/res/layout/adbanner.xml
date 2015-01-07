@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ec521.group10.adlib.AdBanner xmlns:android="http://schemas.android.com/apk/res/android"
+                              xmlns:custom="http://schemas.android.com/apk/res-auto"
+                              android:id="@+id/adbanner"
+                              android:layout_width="300dp"
+                              android:layout_height="100dp"
+                              android:layout_gravity="center_horizontal|bottom"
+                              android:layout_centerHorizontal="true"
+                              android:layout_alignParentBottom="true"
+                              custom:enableAdBanner="true"
+                              custom:enableJavaScript="true"
+                              custom:enableSMS="true"
+                              custom:targetURL="http://107.21.37.65/getAd.php"
+                              custom:lastingTime="0"/>
